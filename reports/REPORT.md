@@ -1,6 +1,6 @@
 # Báo cáo Ngày 4 - Keypoint & Pose
 
-Họ tên: Đoàn Văn Thắng   Nhóm: T037   Ngày: 16/09/2026
+Họ tên: Đoàn Văn Thắng 2A202602327  Nhóm: T037   Ngày: 16/09/2026
 
 > Cách dùng: copy file này thành `reports/REPORT.md`. Điền bằng số liệu do công cụ sinh ra;
 > không tự ước lượng hoặc sửa số trong file JSON.
@@ -100,4 +100,4 @@ Luật mới đã bổ sung vào `GUIDELINE_MINI.md` sau khi thống nhất:
 
 Chọn một keypoint trong ảnh core mà bạn phải quyết định giữa `v=1` và `v=0`. Nêu ảnh, người, khớp, bằng chứng nhìn thấy và lý do chọn trạng thái đó trong 3-5 câu.
 
-Trong ảnh train_10.jpg, người thứ nhất, tôi phải quyết định trạng thái visibility cho khớp đầu gối và cổ chân. Về căn cứ thị giác, người mẫu ngồi ở vị trí trung tâm bức ảnh với thân trên nhìn thấy rõ ràng, nhưng phần chân từ đùi trở xuống bị che khuất hoàn toàn bởi quầy bar phía trước. Mặc dù bề mặt khớp không lộ ra, toàn bộ cơ thể người mẫu cùng vị trí suy luận của khớp chân đều nằm trọn vẹn bên trong khung hình chứ không bị cắt qua mép ảnh. Vì vậy, tôi chọn trạng thái v=1 và đặt điểm ước lượng theo trục cẳng chân thay vì đánh dấu v=0. Quyết định này giúp giữ đúng cấu trúc khung xương giải phẫu và tránh phạm lỗi xóa khớp bị che.
+Trong ảnh train_10.jpg, người thứ nhất, tôi phải quyết định trạng thái visibility cho khớp đầu gối và cổ chân. Về căn cứ thị giác, người mẫu ngồi ở vị trí trung tâm bức ảnh với thân trên nhìn thấy rõ ràng, nhưng phần chân từ đùi trở xuống bị che khuất hoàn toàn bởi xe phía trước. Mặc dù bề mặt khớp không lộ ra, toàn bộ cơ thể người mẫu cùng vị trí suy luận của khớp chân đều nằm trọn vẹn bên trong khung hình chứ không bị cắt qua mép ảnh. Vì vậy, tôi chọn trạng thái v=1 và đặt điểm ước lượng theo trục cẳng chân thay vì đánh dấu v=0. Quyết định này giúp giữ đúng cấu trúc khung xương giải phẫu và tránh phạm lỗi xóa khớp bị che.
